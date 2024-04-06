@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.header{
+    height: 70px;
+    width: 65rem;
+    background-color: black;
+    display: flex;
+
+}
+
+.background{
+    width: 65rem;
+}
+
+.logo{
+    margin-left: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.logoname{
+    margin-left: 1rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.premium-btn{
+    color: orange;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0.5px solid orange;
+    
+}
+
+.search{
+    background: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    display: flex;
+    padding: 1px;
+}
+
+.searchicon{
+    height: 1rem;
+    margin-top: 0.5rem;
+}
+
+.searchbox{
+    width: 15rem;
+    margin-right: 0.5rem;
+    border: 0px solid black;
+}
+
+.logindiv{
+    margin-left: 10rem;
+    margin-top: 1rem;
+   
+}
+
+.login{
+    margin-right: 1rem;
+    background: orange;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup{
+        background: orange;
+        padding: 5px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+.logout{
+    margin-right: 1rem;
+    background: orange;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chatIcon{
+    margin-left: 1rem;
+    width: 2rem;
+    margin-top: 0.3rem;
+    color: grey;
+}
+.bellIcon{
+    margin-left: 0.5rem;
+    width: 2rem;
+    margin-top: 0.3rem;
+    color: grey;
+}
+.plusIcon{
+    margin-left: 0.5rem;
+    width: 2rem;
+    margin-top: 0.3rem;
+    color: grey;
+}
+.avtar{
+    margin-left: 1rem;
+    height: 2.5rem;
+    margin-top: 1.2rem;
+}
+.user{
+    color: gray;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+.logout{
+    background: orange;
+    color: white;
+    cursor: pointer;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.community{
+    border: 1px solid black;
+    background: black;
+    color: white;
+    width: 300px;
+    height: 1400px;
+}
+
+.commHead{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.postLogin{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.postItem{
+    height: 640px;
+    width: 650px;
+    border: 1px solid black;
+    background: white;
+}
+
+@media (max-width: 999px) {
+    .premium-btn {
+      display: none;
+    }
+
+   
+  }
